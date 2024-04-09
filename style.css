@@ -5,4 +5,55 @@ body {
 main {
   width: 400vh;
 }
+div img.mainBanner {
+  width: 100%;
+  height: auto;
+  z-index: 1;
+}
+.menu {
+  z-index: 100;
+  display: flex;
+  justify-content:center;
+  gap: 30px;
+  align-items:center;
+  align-content:baseline;
+  /* border: 1px solid rgb(0, 255, 0); */
+  position:fixed;
+  top: 45px;
+  left: -20px;
+  width: 100%;
+  height: auto;
 
+}
+.logo {
+  width: 175px;
+}
+.elementMenu a{
+  text-decoration: none;
+  justify-content: center;
+  align-items: baseline;
+  
+}
+.menuIcon {
+
+}
+.textMenu {
+  color: rgb(157, 157, 157);
+}
+div.textMenu span.textMenu{
+  position: relative;
+  top: -6px;
+  
+}
+.search {
+opacity: 80%;
+border-radius: 5px;
+height: 20px;
+max-width: 185px;
+}
+
+input.s-input{
+  text-decoration: none;
+  border: none;
+  outline: none; /* Убирает контур при фокусировке */
+}
